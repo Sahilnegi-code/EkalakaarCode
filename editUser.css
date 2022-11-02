@@ -1,0 +1,23 @@
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+       font-weight: bold;
+
+    
+    }
+
+
+    body{
+        background:f1fbff;
+    }
+
+
+    @media (max-width: 576px) { 
+        .navbar-brand{
+
+            text-align: center;
+            width: 100%;
+        }
+        .d-flex{
+            width: 100%;
+        }
+     }

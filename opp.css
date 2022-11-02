@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #f5f8ff;
+  }
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #search-container {
+    margin: 1em 0;
+    text-align: center;
+  }
+  #search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid red;
+    padding: 1em 0.3em;
+  }
+  #search-container input:focus {
+    border-bottom-color: red;
+  }
+  #search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
+  .button-value {
+    border: 2px solid red;
+    
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.525);
+    cursor: pointer;
+  }
+  .active {
+    background-color: red;
+    color: red;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+  }
+  .card {
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+  #data i{
+    color: red;
+    font-size: 20px;
+
+  }
+  #data i span{
+    color: black;
+    font-weight: 200;
+
+  }
+ s
+  .container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+  .container h5 {
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .containerfluid{
+    margin-top: 5em !important;
+    width: 80%;
+    margin: auto  ;
+
+  }
+  .flex{
+    width: 100%;
+  
+ 
+  }
+  .flex .bi-geo-alt-fill{
+
+    width: 50%;
+    display: inline-block;
+
+  }
+  .flex div{
+    display: inline-block;
+    width: 50%;
+  }
+  .details{
+    text-align: right;
+  } 
+  
+  @media  (max-width: 600px) {
+    .flex {
+      flex-direction: column;
+      align-items: center;
+    }
+    .flex .bi-geo-alt-fill{
+      
+      display: block;
+      width: 100%;
+    }
+    .flex div{
+      display:block;
+      width: 100%;
+
+    }
+
+  }
